@@ -8,11 +8,11 @@ html, body{
 }
 .form-container{
     margin:auto;
-    margin-top: 200px;/*Center the container horizontally */
+    margin-top: 220px;/*Center the container horizontally */
     padding: 15px;/*add margin-to for vertical centering*/
-    background-color: beige;
+    background-color: grey;
     color: rgb(115, 24, 241);
-    box-shadow: 0 5px 10px 0 grey;
+    box-shadow: 0 5px 10px 0 beige;
     width: 500px;
     height: auto;/*adjust the container height automatically*/
     position: relative;/*position relative for centering*/
@@ -21,7 +21,7 @@ html, body{
 }
 .input-ico{
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 .input-ico >i{
     min-width: 40px;
@@ -30,7 +30,7 @@ html, body{
     background-color: rgb(153,156, 155);
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    color: blue;
+    color: sky blue;
 }
 .input-ico:hover >i {
     background-color: aqua;
@@ -41,7 +41,7 @@ html, body{
     outline: none;
     border: none;
     padding: 10px;
-    border: 1px solid lightgreen;
+    border: 1px solid thik green;
     border-top-right-radius: 20px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 20px;
@@ -66,5 +66,5 @@ html, body{
     margin-top: 20px;
 }
 .button input[type="submit"]:hover{
-    background-color: green;
+    background-color: yellow;
 }
